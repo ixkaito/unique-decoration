@@ -9,6 +9,9 @@
 	font-style: normal;
 }
 
+.title:before,
+.title:after,
+.title-inner:after,
 [class^="icon-"], [class*=" icon-"] {
 	/* use !important to prevent issues with browser extensions that change fonts */
 	font-family: 'icomoon' !important;
@@ -24,12 +27,17 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.title:before,
 .icon-blockly-divider-begin:before {
 	content: "\e900";
 }
+
+.title-inner:after,
 .icon-blockly-divider-middle:before {
 	content: "\e901";
 }
+
+.title:after,
 .icon-blockly-divider-end:before {
 	content: "\e902";
 }
@@ -52,5 +60,13 @@
 }
 
 .title {
+	position: relative;
 	text-transform: uppercase;
+}
+
+.title:before,
+.title:after,
+.title-inner:after {
+	font-size: 81px;
+	position: absolute;
 }
