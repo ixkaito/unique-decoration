@@ -70,3 +70,17 @@
 	font-size: 81px;
 	position: absolute;
 }
+
+.title:before {
+	bottom: -10px;
+	left: -10px;
+}
+
+.title:after {
+	bottom: -10px;
+}
+
+.title-inner:after {
+	bottom: -10px;
+	left: 71px;
+}
