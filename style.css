@@ -34,7 +34,7 @@
 
 .title-inner:after,
 .icon-blockly-divider-middle:before {
-	content: "\e901";
+	content: "\e901\e901\e901\e901\e901\e901\e901\e901\e901\e901\e901\e901";
 }
 
 .title:after,
