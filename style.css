@@ -1,0 +1,20 @@
+.container {
+	margin: auto;
+	max-width: 960px;
+}
+
+.section-1 {
+	color: #da4453;
+}
+
+.section-2 {
+	color: #8cc152;
+}
+
+.section-3 {
+	color: #4a89dc;
+}
+
+.title {
+	text-transform: uppercase;
+}
