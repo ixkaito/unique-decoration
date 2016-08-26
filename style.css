@@ -64,6 +64,13 @@
 	text-transform: uppercase;
 }
 
+.title-inner {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	vertical-align: top;
+}
+
 .title:before,
 .title:after,
 .title-inner:after {
